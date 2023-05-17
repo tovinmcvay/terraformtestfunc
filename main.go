@@ -19,7 +19,7 @@ func CheckRequiredParameters(t *testing.T, resourceName string, outputValue stri
 	}
 }
 
-// CheckRequiredOutputParams
+// CheckRequiredOutputParams for terraform Options
 func CheckRequiredOutputParams(t *testing.T, terraformOptions *terraform.Options, outputName string) {
 	if terraformOptions == nil {
 		t.Errorf("terraformOptions is required inside terrarform.Output() parameter")
